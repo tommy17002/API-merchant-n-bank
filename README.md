@@ -49,6 +49,8 @@ Untuk menjalankan tes pada postman :
 #### Login sukses
 
 ![alt text](image-1.png)
+lalu tersipan di log history
+![alt text](image-8.png)
 
 #### Login gagal
 
@@ -89,3 +91,5 @@ lalu akan tercatat di history.json nya
 #### Logout
 
 ![alt text](image-6.png)
+lalu tersimpan di log history
+![alt text](image-9.png)

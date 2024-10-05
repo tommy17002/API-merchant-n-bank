@@ -5,5 +5,54 @@
     "action": "Payment",
     "amount": 100,
     "timestamp": "2024-10-05T10:29:43+07:00"
+  },
+  {
+    "id": "2024-10-05 13:35:44.353667343 +0700 WIB m=+5118.101069181",
+    "customer_id": "1",
+    "action": "Payment",
+    "amount": 200,
+    "timestamp": "2024-10-05T13:35:44+07:00"
+  },
+  {
+    "id": "",
+    "customer_id": "1",
+    "action": "Login",
+    "amount": 0,
+    "timestamp": "2024-10-05T14:33:34+07:00"
+  },
+  {
+    "id": "",
+    "customer_id": "1",
+    "action": "Login",
+    "amount": 0,
+    "timestamp": "2024-10-05T14:33:35+07:00"
+  },
+  {
+    "id": "",
+    "customer_id": "1",
+    "action": "Login",
+    "amount": 0,
+    "timestamp": "2024-10-05T14:33:35+07:00"
+  },
+  {
+    "id": "",
+    "customer_id": "1",
+    "action": "Login",
+    "amount": 0,
+    "timestamp": "2024-10-05T14:33:36+07:00"
+  },
+  {
+    "id": "",
+    "customer_id": "1",
+    "action": "Logout",
+    "amount": 0,
+    "timestamp": "2024-10-05T14:33:54+07:00"
+  },
+  {
+    "id": "",
+    "customer_id": "1",
+    "action": "Login",
+    "amount": 0,
+    "timestamp": "2024-10-05T14:34:00+07:00"
   }
 ]
