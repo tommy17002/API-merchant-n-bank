@@ -1,6 +1,6 @@
 # Merchant-Bank API
 
-Proyek ini adalah API sederhana yang mensimulasikan interaksi antara pedagang dan bank.
+Proyek ini adalah API sederhana yang mensimulasikan interaksi antara merchant dan bank.
 
 ## Fitur
 
@@ -11,15 +11,17 @@ Proyek ini adalah API sederhana yang mensimulasikan interaksi antara pedagang da
 ## Cara Menjalankan
 
 1. Clone repositori:
-    ```sh
-    git clone <repository_url>
-    cd merchant-bank-api
-    ```
+
+   ```sh
+   git clone https://github.com/tommy17002/API-merchant-n-bank
+   cd merchant-bank-api
+   ```
 
 2. Jalankan aplikasi:
-    ```sh
-    go run main.go
-    ```
+
+   ```sh
+   go run main.go
+   ```
 
 3. API akan tersedia di `http://localhost:8080`.
 
@@ -31,4 +33,56 @@ Proyek ini adalah API sederhana yang mensimulasikan interaksi antara pedagang da
 
 ## Pengujian
 
-Untuk menjalankan tes:
+Untuk menjalankan tes pada postman :
+
+#### Login terlebih dahulu:
+
+- URL: POST http://localhost:8080/login
+
+- Body (JSON):
+
+{
+"name": "John Doe",
+"password": "password123"
+}
+
+#### Login sukses
+
+![alt text](image-1.png)
+
+#### Login gagal
+
+![alt text](image-4.png)
+
+#### Lakukan pembayaran:
+
+- URL: POST http://localhost:8080/payment
+
+- Body (JSON):
+
+{
+"merchant_id": "12345",
+"amount": 100
+}
+
+#### Response yang diharapkan:
+
+##### Jika belum login
+
+![alt text](image-2.png)
+
+##### Jika saldo mencukupi
+
+![alt text](image.png)
+
+##### Jika saldo tak mencukupi
+
+![alt text](image-3.png)
+
+##### Jika membayar jumlah 0 atau kurang dari 0
+
+![alt text](image-5.png)
+
+#### Logout
+
+![alt text](image-6.png)
