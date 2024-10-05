@@ -75,6 +75,9 @@ Untuk menjalankan tes pada postman :
 
 ![alt text](image.png)
 
+lalu akan tercatat di history.json nya
+![alt text](image-7.png)
+
 ##### Jika saldo tak mencukupi
 
 ![alt text](image-3.png)
